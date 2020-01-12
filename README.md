@@ -9,3 +9,4 @@ The architecture that we have developed **vastly outperforms** the standard conv
 This work is a collaboration of Richard Qiu, Philippe Noël, Jonathan Berman, and Jorma Görns.
 
 ## Contents
+* "Training the CNN.ipynb": Details the training of our feature extractor (specifically, a VGG19 CNN that we train to detect hemorrhages using transfer learning)
