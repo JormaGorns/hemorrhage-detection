@@ -20,6 +20,6 @@ This work is a collaboration of Richard Qiu, Philippe Noël, Jonathan Berman, an
 
 * "Training the CNN.ipynb": Details the training of our feature extractor (specifically, a VGG19 CNN that we train to detect hemorrhages using transfer learning)
 
-* "Training the R-CNN.ipynb": Details the training of our final model, a recurrent neural network using features extracted by the CNN
+* "Training the R-CNN.ipynb": Details the training of our final model, an *LSTM* using features extracted by the CNN
 
 * Finally, the *docs* folder also contains a verbal report of this project.
