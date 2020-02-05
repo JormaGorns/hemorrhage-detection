@@ -16,7 +16,7 @@ This work is a collaboration of Richard Qiu, Philippe Noël, Jonathan Berman, an
 
 * "Windowing PNGs.ipynb": When examining brain CT scans, radiologists rarely look at the raw images (they appear mostly gray to the human eye). Instead, they use so-called "windows"---simple transformations of the raw data that serve to highlight structures of different density in the human brain. The three most common windows for hemorrhage detection are the **bone, brain, and subdural window**. These are also the three windows that we apply to help our model detect hemorrhages. Specifically, we read in black-and-white, one-channel PNGs and turn them into RGB, three-channel PNGs where each channel contains one specific window.
 
-* "**Freeze CNN Convolutions**.ipynb": **In Progress**
+* "Feature Extraction.ipynb": **In Progress**
 
 * "Training the CNN.ipynb": Details the training of our feature extractor (specifically, a VGG19 CNN that we train to detect hemorrhages using transfer learning)
 
